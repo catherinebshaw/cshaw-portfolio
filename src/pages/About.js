@@ -7,7 +7,9 @@ function About() {
   const [profile] = useState({
     name: "Catherine Shaw",
     location: "Toronto",
-    info: "Thirty years ago I took a sharp turn in my career and I jumped from Nursing to Finance. Not a simple move, but a rewarding one. I was able to take many of my nursing skills, like the ability to solve complex problems, to think on your feet and to be fully accountable to your customer, and apply them in business. In business, I gained additional skills in analysis and strategic thinking which led me to some fascinating and rewarding roles. Now I am taking another sharp turn and becoming a full-stack web developer. I am building on my experience in Health Care, Finance, Consulting and my more recent experiences in the not-for-profit sector to solve problems in innovative ways using web-based technology. To learn more about my experience, or my unconventional path from nurse to full-stack developer, please visit my Contact page where you can download my resume, email me or reach out on LinkedIn or Github.",
+    info1: "Thirty years ago, I acquired the skills necessary to transition from a career in Nursing to one in Corporate Finance and Consulting. Not a simple move, but a rewarding one. Nursing had taught me how to solve complex problems, to think on my feet and to be fully accountable to my customers. In the corporate world, I built on those skills with  new skills in analysis, business planning and strategic thinking. My unique background and skill-set led me to some fascinating and rewarding roles.",
+   info2:  "Now I am transitioning to full-stack web development: using technology to solve complex, and simple, business problems. With an understanding of technology and broad base in business, I am uniquely positioned to help organizations, be they large, small, for-profit, not-for-profit - efficiently improve their performance using the internet.",
+  info3: "To learn more about my experience, or my unconventional path from nurse to full-stack developer, please visit my Contact page where you can download my resume, email me or reach out on LinkedIn or Github.",
     thumbnail: "../components/images/headshot.png",
   })
 

@@ -21,6 +21,7 @@
 .btn {
     margin: 5px;
     background-color: teal;
+    border-color: teal;
 }
 #projectImage {
     width: 90%;

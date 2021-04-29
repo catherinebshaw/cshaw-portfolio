@@ -4,12 +4,17 @@ import "./style.css";
 import ProfileContext from "../../utils/ProfileContext";
 
 function Bio() {
-    const { info } = useContext(ProfileContext)
+    const { info1 } = useContext(ProfileContext)
+    const { info2 } = useContext(ProfileContext)
+    const { info3 } = useContext(ProfileContext)
+
 
     return (
         <>
             <div class="card-body">
-                <p class="card-text">{info}</p>
+                <p class="card-text">{info1}</p>
+                <p class="card-text">{info2}</p>
+                <p class="card-text">{info3}</p> 
             </div>
         </>
     )

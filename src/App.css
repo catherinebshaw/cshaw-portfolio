@@ -13,6 +13,16 @@
   }
 }
 
+#About{
+  width: 90%;
+  margin: 30px;
+  background-color:white;
+  border: solid teal 1px;
+  border-radius: 5px;
+  padding: 20px;
+  
+  }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +45,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  font-size: 16pt;
+}
+
+.container{
+  background: white;
+  margin-top: 30px;
+  border: solid 1px teal;
+  border-radius: 5px;
+  padding: 25px;
+}
+ul {
+  border: none;
+  padding-bottom: 30px;
+
+}
+.fa-linkedin {
+  size: 5x;
+  color: teal;
+
+}
+#icon {
+  size:70px;
+  color: teal;
+  padding-right: 20px;
+}
+
+#contactDetails{
+  border: none;
+}
+
+#Image {
+  position: relative;
 }

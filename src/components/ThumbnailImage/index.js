@@ -1,4 +1,3 @@
-import { useState } from "react"
 import "./style.css"
 import  headshot from "../images/headshot.png";
 
