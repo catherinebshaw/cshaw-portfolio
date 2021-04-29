@@ -14,7 +14,7 @@ Users are presented with three main pages:
 This application was built using ReactJS. It employs Javascript, CSS and HTML and also includes additional packages such as react-router-dom and react-icons. The application has been deployed on heroku and runs as a standard web page. To run locally, open the SRC file in the integrated terminal and type "NPM start".  The site will be served on localhost:3000.
 
 ## Mock Up 
-![image of portfolio page]("./public/CShawPortfolioSS.png")
+![image of portfolio page](https://github.com/catherinebshaw/cshaw-portfolio/blob/main/public/images/CShawPortfolioSS.png)
 
 ## Live Site
 [CShaw Portfolio](https://cshaw-portfolio.herokuapp.com/)

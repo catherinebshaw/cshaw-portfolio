@@ -7,7 +7,7 @@ function Bio() {
     const { info1 } = useContext(ProfileContext)
     const { info2 } = useContext(ProfileContext)
     const { info3 } = useContext(ProfileContext)
-    const {info4} = useContext(ProfileContext)
+    const { info4 } = useContext(ProfileContext)
 
 
     return (
