@@ -1,0 +1,48 @@
+nav.navbar.navbar-default{
+  margin-bottom: 30px;
+  margin-right:0px;
+  margin-left: 20px;
+  padding-left: 30px;
+  float: right;
+}
+#navigation {
+  float: right;
+  margin-right: 0;
+  justify-content: flex-end;
+ 
+}
+.navbar-brand { 
+  color:teal;
+  font-size: 32pt;
+  margin-right: 1rem;
+  padding-left: 20px;
+
+}
+a.nav-link {
+  font: 24pt;
+}
+ul.navbar-nav {
+  color: grey;
+  font: 26pt;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+
+}
+li.nav-item{
+  font-size: 20pt;
+}
+#navBar {
+  margin-right:0px;
+  float: right;
+}
+div.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerNav {
+  justify-content: right;
+
+}
+

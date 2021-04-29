@@ -1,0 +1,30 @@
+.card {
+
+    background: white;
+    border: 1px solid teal;
+    margin: 15px;
+
+}
+.card-title {
+    font-weight: bold;
+    font-size: 18pt;
+}
+#projectCard{
+    border: solid 1px teal;
+    width: 95%;
+    height: auto;
+    display: flex;
+    min-height: 95%;
+    margin: 20px;
+
+}
+.btn {
+    margin: 5px;
+    background-color: teal;
+}
+#projectImage {
+    width: 90%;
+    height: auto;
+    float: center;
+}
+
