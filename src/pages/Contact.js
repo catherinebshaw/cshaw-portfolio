@@ -1,44 +1,27 @@
 import React from 'react';
+import '../App.css'
+import resume from "../components/images/CSresume2021.pdf"
+
 
 function Contact(){
 
     return( 
-    
-    <div className="container content box">
-        <div className="row gx-5">
-            <div className="col-9 col-s-9">  
-                <div className="p-3 border bg-white">         
-                    <h2>Contact</h2>
-                    <hr></hr>
-                    <br></br>
-                    <div className="container">  
-                        <div className="row">
-                            <div className="col-sm-8">             
-                                <div class="card" id="contact">
-                                    <div className="card-body">
-                                        <p>catherinebshaw@sympatico.ca</p>
-                                        <p>416-550-3230</p>
-                                        <ul className="list-group list-group-horizontal">
-                                            <a href="https://www.linkedin.com/in/catherine-shaw-a91a0423"><icon className="fa fab fa-linkedin" style={{width: 30}}></icon></a>
-                                            <a href="https://github.com/catherinebshaw"><icon className="fa fab fa-github-square" stlye={{width: 30}}></icon></a>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-sm-4">
-                                <div className="card" id="download"> 
-                                    <p>Click on the image to download a copy of my resume:</p>
-                                    <a href="assets/CS resume 2021.pdf" download><img src="assets/downloadPDF.png" alt="C Shaw Resume" width="60" height="auto"></img></a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div> 
-                </div> 
+        <div>  
+            <div className="container" id="contact">   
+                <h2>Contact</h2>
+                <hr></hr>
+                <br></br>             
+                <div>
+                    <ul className="list-group-flush" id="contactDetails">
+                        <li className="list-group-item" aria-current="true"><i className="fas  fa-at" id="icon"></i>catherinebshaw@sympatico.ca</li>
+                        <li className="list-group-item"><i className="fas  fa-mobile-alt" id="icon"></i>416-550-3236</li>
+                        <a className="list-group-item" href='https://www.linkedin.com/in/catherine-shaw-a91a0423' target="_blank" rel="noreferrer"><i className="fa fab fa-linkedin" id="icon"></i>LinkedIn</a>
+                        <a className="list-group-item" href="https://github.com/catherinebshaw" target="_blank" rel="noreferrer"><i className="fa fab fa-github-square" id="icon"></i>Github</a>
+                        <a className="list-group-item" href={resume} download><i className="fas  fa-file-download" id="icon"></i>Click to dowload my resume</a>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-      
-
     )
 }
 export default Contact
