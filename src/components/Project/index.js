@@ -1,9 +1,9 @@
-import React from 'react';
+import React  from 'react';
 import './style.css'
 
 
 function Project(props) {
-
+    
     return (
     <div className="col">
         <div className="card mb-3" id="projectCard">
@@ -11,8 +11,8 @@ function Project(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">{props.description}</p>
-                <a href={props.site} target="_blank" rel="nonreferrer" className="btn btn-primary">{props.name}</a>
-                <a href={props.repository} target="_blank" rel="nonreferrer" className="btn btn-primary">See the Code</a>
+                <a href={props.site} target="_blank" rel="noreferrer" className="btn btn-primary">{props.name}</a>
+                <a href={props.repository} target="_blank" rel="noreferrer" className="btn btn-primary">See the Code</a>
             </div>
         </div>
     </div> 

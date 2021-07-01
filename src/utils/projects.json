@@ -17,10 +17,10 @@
     },
     {
         "id": 3,
-        "name": "Finanical Tracker",
-        "image": "images/FinancialTracker.png",
-        "site": "https://catherinebshaw.github.io/Money-for-Nothing",
-        "repository": "https://github.com/catherinebshaw/Money-for-Nothing",
+        "name": "Stock Tracker",
+        "image": "images/Money-For-Nothing-2021.png",
+        "site": "https://daze77.github.io/Money-for-Nothing-2021/",
+        "repository": "https://github.com/daze77/Money-for-Nothing-2021",
         "description": "Great for users that are just learning about business and stocks. Find a company and learn about their performance."
       },
       {
@@ -62,6 +62,14 @@
         "site": "https://catherinebshaw.github.io/Team-Builder/",
         "repository": "https://github.com/catherinebshaw/Team-Builder",
         "description": "An inquirer-based tool built entirely in JavaScript that allows an organization to build a team. HTML page of the team is generated as output."
+      },
+      {
+        "id": 9,
+        "name": "Barretique",
+        "image": "images/Barretique.png",
+        "site": "https://www.barretique.ca/",
+        "repository": "",
+        "description": "This site was already designed when I was asked to step in and make it market-ready. Using WIX, I edited the entire site, made it possible for customers to book services and pay for them using Stripe/Credit Card, connected contact info/social media and updated SEO."
       }
-]
+      ]
 
